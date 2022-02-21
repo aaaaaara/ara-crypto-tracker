@@ -17,8 +17,8 @@ ReactDOM.render(
 			<RecoilRoot>
 				<ThemeProvider theme={theme}>
 					<App />
+					<GlobalStyle />
 				</ThemeProvider>
-				<GlobalStyle />
 			</RecoilRoot>
 		</QueryClientProvider>
 	</React.StrictMode>,
