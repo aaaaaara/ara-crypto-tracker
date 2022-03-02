@@ -1,12 +1,23 @@
-const size = {
-	mobile: "600px",
-	desktop: "1800px"
+import { DefaultTheme } from "styled-components";
+
+export const theme: DefaultTheme = {
+	textColor: "#000",
+	bgColor: "#fff",
+	btnColor: "#c85d7c",
+	accentColor: "#e3a8b9"
 };
 
-const theme = {
-	mainColor: "#0a4297",
-	mobile: `(max-width: ${size.mobile})`,
-	desktop: `(min-width: ${size.desktop})`
-};
+export const darkTheme : DefaultTheme = {
+	textColor: "#fff",
+	bgColor: "#000",
+	btnColor: "#c85d7c",
+	accentColor: "#e3a8b9"
+}
 
-export default theme;
+/*
+$color-1: #8d324c;
+$color-2: #b43e60;
+$color-3: #c85d7c;
+$color-4: #d6829a;
+$color-5: #e3a8b9;
+*/
