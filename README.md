@@ -1,4 +1,4 @@
-## 이해라이프스타일 Front-end Boiler Plate(React/Web)
+## Front-end Boiler Plate(React/Web)
 
 ### Tech Stack
 - react
@@ -8,6 +8,7 @@
 - Recoil
 - Styled-Components
 - StoryBook
+- Framer-Motion
 
 ### Build 
 - Web: npm start
