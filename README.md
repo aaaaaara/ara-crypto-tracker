@@ -7,7 +7,13 @@
 - React Query
 - Recoil
 - Styled-Components
+- StoryBook
 
 ### Build 
 - Web: npm start
 - Storybook: npm run storybook
+
+### 환경변수
+- 개인 KEY값, DEV URI, MAIN URI ...
+- .env 파일로 관리
+- gitignore 파일에 추가
