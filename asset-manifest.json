@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/ara-crypto-tracker/static/js/main.642fc58f.js",
+    "index.html": "/ara-crypto-tracker/index.html",
+    "main.642fc58f.js.map": "/ara-crypto-tracker/static/js/main.642fc58f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.642fc58f.js"
+  ]
+}
