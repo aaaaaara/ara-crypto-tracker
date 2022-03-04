@@ -8,10 +8,10 @@ export const theme: DefaultTheme = {
 };
 
 export const darkTheme : DefaultTheme = {
-	textColor: "#fff",
+	textColor: "#f1f1f1",
 	bgColor: "#000",
-	btnColor: "#c85d7c",
-	accentColor: "#e3a8b9"
+	btnColor: "#e3a8b9",
+	accentColor: "#c85d7c"
 }
 
 /*
