@@ -86,7 +86,7 @@ export default function Coin() {
   const loading = infoLoading || tickersLoading;
   
   const onClick = () => {
-    navigate("/");
+    navigate(`${process.env.PUBLIC_URL}/`);
   }
 
   const setDarkAtom = useSetRecoilState(isDarkState);
