@@ -5,7 +5,7 @@ import Coin from "routes/Coin";
 
 export default function Router() {
   return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route path={`${process.env.PUBLIC_URL}/`} element={<Coins />} />
               <Route path="/:coinId/*" element={<Coin />} /> 
