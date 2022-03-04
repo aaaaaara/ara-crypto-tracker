@@ -7,7 +7,7 @@ export default function Router() {
   return (
         <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Coins />} />
+              <Route path={`${process.env.PUBLIC_URL}/`} element={<Coins />} />
               <Route path="/:coinId/*" element={<Coin />} /> 
           </Routes>
         </BrowserRouter>
